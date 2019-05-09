@@ -22,8 +22,10 @@ function render() {
 }
 
 
-function createStore(reducer) {
-};
+
+
+
+
 
 function changeCount(state = { count: 0 }, action) {
   switch (action.type) {
